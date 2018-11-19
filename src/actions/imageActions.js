@@ -5,7 +5,9 @@ import { IMAGES_LOADING, GET_IMAGES, SAVE_QUERY, DELETE_QUERY, DELETE_QUERIES } 
 //Get Images
 export const getImages = query => dispatch => {
     dispatch(setImagesLoading())
-    axios.get(`https://api.unsplash.com/search/photos/?page=1&per_page=30&query=${query}&client_id=${process.env.REACT_APP_ACCESS}`)
+    axios.get(`https://cors-anywhere.herokuapp.com/https://api.unsplash.com/search/photos/?page=1&per_page=30&query=${query}&client_id=${process.env.REACT_APP_ACCESS}`, {
+        headers: { 'Origin': `https://api.unsplash.com/search/photos/?page=1&per_page=30&query=${query}&client_id=${process.env.REACT_APP_ACCESS}` }
+    })
         .then(res => {
             dispatch({
                 type: GET_IMAGES,
