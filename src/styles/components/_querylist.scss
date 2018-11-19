@@ -1,0 +1,57 @@
+.query__text {
+    color: white;
+    font-weight:500;
+    word-break: break-all;
+}
+
+.querylist {
+    background: $lightblue;
+    margin-bottom: $xlsize;
+    width: 500px;
+}
+
+.querylist-header {
+    background: $blue;
+    color:$off-white;
+    display: flex;
+    justify-content: space-between;
+    padding:$ssize;
+     
+}
+
+.querylist-header__title{
+    margin:0;
+    font-size: 2.5rem;
+}
+
+
+.queryoption {
+    display: flex;
+    justify-content: space-between;
+    padding:$ssize 40px;
+    border-bottom: 1px solid lighten($color: $lightblue, $amount: 10%);
+}
+
+
+.queryoption__text {
+    color: white;
+    font-weight:500;
+    word-break: break-all;
+}
+
+.querybutton{
+    background: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple,10%);
+    color: white;
+    font-weight:500;
+}
+
+.querybutton--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+    word-break: break-all;
+    font-size: 2.3rem;
+}

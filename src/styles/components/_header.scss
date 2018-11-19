@@ -1,0 +1,31 @@
+
+
+
+.header {
+    text-align: center;
+    background: $off-black;
+    margin-bottom: $ssize;
+    color: white;
+    padding: $msize 0;
+}
+
+.header__title {
+    font-size: $xlsize;
+    margin: 0 0 20px 0;
+}
+
+.header__subtitle {
+    color: $off-white;
+    font-size: $msize;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+@media (min-width: 45rem) {
+    .header {
+        margin-bottom: $lsize;
+    }
+ 
+ 
+} 

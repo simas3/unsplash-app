@@ -1,0 +1,25 @@
+
+.button{
+    background: $purple;
+    border: none;
+    border-bottom: .3rem solid darken($purple,10%);
+    color: white;
+    font-weight:500;
+    padding: $ssize;
+    margin-right: 20px;
+    width: 12%;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 60rem) {
+    .button {
+       margin: 0;
+       width: 100%;
+
+    }
+ }
+ 
+ 

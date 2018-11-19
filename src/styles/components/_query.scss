@@ -1,0 +1,44 @@
+.query-error{
+    color: $off-white;
+    font-style: italic;
+    padding: 0 $msize;
+    margin: $msize 0 0 0;
+    text-align: center;
+}
+
+.query {
+    display: flex;
+    flex-direction: column;
+    padding:$msize;
+    justify-content:center;
+}
+
+.query__input {
+    background: $dark-blue;
+    border:none;
+    color:$off-white;
+    padding: $ssize;
+    box-sizing: border-box;
+    border-bottom: .3em solid darken($color: $dark-blue, $amount: 10%);
+    width: 100%;
+
+}
+
+
+@media (min-width: 60rem) {
+   .query {
+        
+       flex-direction: row;
+  
+   }
+.query__input {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+
+
+}
+
+
+
