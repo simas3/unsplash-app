@@ -66,9 +66,4 @@ SearchForm.propTypes = {
     saveQuery: PropTypes.func.isRequired
 }
 
-const mapStateToProps = (state) => ({
-})
-
-
-
-export default connect(mapStateToProps, { getImages, saveQuery })(SearchForm)
+export default connect(null, { getImages, saveQuery })(SearchForm)

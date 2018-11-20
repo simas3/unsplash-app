@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render error for empty submit 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SearchForm
+    getImages={[Function]}
+    saveQuery={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          className="query"
+          onSubmit={[Function]}
+        >
+          <input
+            className="query__input"
+            name="query"
+            onChange={[Function]}
+            placeholder="Search images..."
+            value=""
+          />
+          <button
+            className="button"
+            type="submit"
+          >
+            Search
+          </button>
+          <button
+            className="button"
+            onClick={[Function]}
+            type="button"
+          >
+            Save
+          </button>
+        </form>,
+        <p
+          className="query-error"
+        >
+          Please Enter Your Search Query
+        </p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="query__input"
+              name="query"
+              onChange={[Function]}
+              placeholder="Search images..."
+              value=""
+            />,
+            <button
+              className="button"
+              type="submit"
+            >
+              Search
+            </button>,
+            <button
+              className="button"
+              onClick={[Function]}
+              type="button"
+            >
+              Save
+            </button>,
+          ],
+          "className": "query",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "query__input",
+              "name": "query",
+              "onChange": [Function],
+              "placeholder": "Search images...",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Search",
+              "className": "button",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Search",
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Save",
+              "className": "button",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": "Save",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Please Enter Your Search Query",
+          "className": "query-error",
+        },
+        "ref": null,
+        "rendered": "Please Enter Your Search Query",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            className="query"
+            onSubmit={[Function]}
+          >
+            <input
+              className="query__input"
+              name="query"
+              onChange={[Function]}
+              placeholder="Search images..."
+              value=""
+            />
+            <button
+              className="button"
+              type="submit"
+            >
+              Search
+            </button>
+            <button
+              className="button"
+              onClick={[Function]}
+              type="button"
+            >
+              Save
+            </button>
+          </form>,
+          <p
+            className="query-error"
+          >
+            Please Enter Your Search Query
+          </p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="query__input"
+                name="query"
+                onChange={[Function]}
+                placeholder="Search images..."
+                value=""
+              />,
+              <button
+                className="button"
+                type="submit"
+              >
+                Search
+              </button>,
+              <button
+                className="button"
+                onClick={[Function]}
+                type="button"
+              >
+                Save
+              </button>,
+            ],
+            "className": "query",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "query__input",
+                "name": "query",
+                "onChange": [Function],
+                "placeholder": "Search images...",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Search",
+                "className": "button",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Search",
+              "type": "button",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Save",
+                "className": "button",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": "Save",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Please Enter Your Search Query",
+            "className": "query-error",
+          },
+          "ref": null,
+          "rendered": "Please Enter Your Search Query",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

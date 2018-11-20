@@ -32,7 +32,6 @@ export const saveQuery = query => dispatch => {
 }
 
 export const deleteQuery = query => dispatch => {
-    console.log('delete')
     dispatch({
         type: DELETE_QUERY,
         payload: query
